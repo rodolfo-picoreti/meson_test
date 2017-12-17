@@ -1,4 +1,4 @@
-project('helloworld', 'cpp')
+project('helloworld', 'cpp', default_options: ['cpp_std=c++11'])
 pkg = import('pkgconfig')
 
 dependencies = [
